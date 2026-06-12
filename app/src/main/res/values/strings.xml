@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPausa</string>
+
+    <string name="notification_listener_label">AutoPausa: detección de viajes</string>
+    <string name="accessibility_service_label">AutoPausa: pausa automática de solicitudes</string>
+    <string name="accessibility_service_description">Cuando inicias un viaje en Uber o DiDi, AutoPausa abre la otra app y pulsa por ti el botón de pausar nuevas solicitudes. Solo lee la pantalla de Uber y DiDi para encontrar ese botón.</string>
+
+    <string name="main_intro">Cuando empieces un viaje en Uber o DiDi, esta app pausará automáticamente las solicitudes en la otra. Para funcionar necesita dos permisos:</string>
+    <string name="switch_enabled_label">Pausa automática activada</string>
+
+    <string name="permission_notifications_title">1. Acceso a notificaciones</string>
+    <string name="permission_notifications_desc">Permite detectar cuándo inicias o terminas un viaje, leyendo las notificaciones de Uber y DiDi.</string>
+    <string name="permission_accessibility_title">2. Servicio de accesibilidad</string>
+    <string name="permission_accessibility_desc">Permite pulsar automáticamente el botón de «pausar solicitudes» en la otra app.</string>
+    <string name="button_grant">Conceder permiso</string>
+
+    <string name="status_granted">✔ Activado</string>
+    <string name="status_missing">✖ Falta activar</string>
+
+    <string name="last_event_title">Última actividad</string>
+    <string name="no_events_yet">Sin actividad todavía. Inicia un viaje y AutoPausa hará el resto.</string>
+
+    <string name="notif_channel_name">Eventos de AutoPausa</string>
+    <string name="notif_paused_title">%1$s pausada</string>
+    <string name="notif_paused_text">Detecté tu viaje en %1$s y pausé las solicitudes en la otra app. ¡Buen viaje!</string>
+    <string name="notif_failed_title">No pude pausar %1$s</string>
+    <string name="notif_failed_text">No encontré el botón de pausa. Por favor pausa las solicitudes manualmente.</string>
+    <string name="notif_service_off_title">AutoPausa necesita el servicio de accesibilidad</string>
+    <string name="notif_service_off_text">Detecté un viaje, pero no puedo pausar %1$s sin el servicio de accesibilidad. Actívalo desde la app o pausa manualmente.</string>
+    <string name="notif_trip_ended_title">Viaje terminado</string>
+    <string name="notif_trip_ended_text">Tu viaje terminó. Recuerda reactivar las solicitudes en %1$s si quieres seguir recibiendo viajes ahí.</string>
+</resources>
