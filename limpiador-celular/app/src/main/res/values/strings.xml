@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Limpiador de Celular</string>
+    <string name="storage_summary">Almacenamiento usado: %1$s de %2$s</string>
+    <string name="usage_access_explanation">Para saber qué apps no usás hace tiempo, dale acceso a "Datos de uso" a esta app. Es opcional: igual podés ver tamaños y desinstalar sin ese permiso.</string>
+    <string name="grant_usage_access">Dar acceso</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm_uninstall_title">¿Desinstalar %1$s?</string>
+    <string name="confirm_uninstall_message">%1$s ocupa %2$s. Android te va a pedir que confirmes la desinstalación.</string>
+    <string name="uninstall_error">No se pudo abrir el desinstalador del sistema</string>
+    <string name="last_used_unknown">Uso desconocido</string>
+    <string name="last_used_today">Usada hoy</string>
+    <string name="last_used_yesterday">Usada ayer</string>
+    <string name="last_used_days_ago">Usada hace %1$d días</string>
+</resources>
